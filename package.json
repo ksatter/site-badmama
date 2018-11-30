@@ -1,0 +1,26 @@
+{
+  "name": "site-badmama",
+  "version": "1.0.0",
+  "description": "Site for Bad Mama Bakehouse",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksatter/site-badmama.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "instagram",
+    "bootstrap"
+  ],
+  "author": "Katheryn Satterlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksatter/site-badmama/issues"
+  },
+  "homepage": "https://github.com/ksatter/site-badmama#readme"
+}

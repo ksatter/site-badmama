@@ -1,0 +1,22 @@
+body {
+  font-family: 'Amatic SC', cursive;
+}
+
+.bg-dark {
+  background-color: #2aa2b1!important;;
+}
+
+#brand-begin{
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.25em;
+}
+
+#brand-middle {
+  font-family: 'Yesteryear', cursive;
+  font-size: 4em;
+  color: black;
+}
+
+#brand-end {
+  font-size: 1em
+}

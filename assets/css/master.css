@@ -6,6 +6,10 @@ body {
   background-color: #c02960 !important;;
 }
 
+.fab {
+  height: 1em;
+}
+
 /* #brand-begin{
   font-family: 'Amatic SC', cursive;
   font-size: 4.25em;

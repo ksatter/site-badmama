@@ -3,10 +3,10 @@ body {
 }
 
 .bg-dark {
-  background-color: #2aa2b1!important;;
+  background-color: #c02960 !important;;
 }
 
-#brand-begin{
+/* #brand-begin{
   font-family: 'Amatic SC', cursive;
   font-size: 4.25em;
 }
@@ -19,4 +19,11 @@ body {
 
 #brand-end {
   font-size: 1em
+} */
+img {
+  /* width:33% */
+}
+
+.img-row {
+  /* border: 2px solid gray; */
 }

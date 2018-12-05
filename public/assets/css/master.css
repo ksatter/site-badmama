@@ -2,8 +2,21 @@ body {
   font-family: 'Amatic SC', cursive;
 }
 
-.bg-dark {
-  background-color: #c02960 !important;;
+.bg-dark, footer{
+  background-color: #c02960 !important;
+  color: white;
+}
+
+.fab, .far {
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+footer p {
+  margin-bottom: 0;
+  font-size: .5em
 }
 
 

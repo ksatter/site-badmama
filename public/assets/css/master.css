@@ -1,5 +1,6 @@
 body {
   font-family: 'Amatic SC', cursive;
+  background-color: rgba(105,105,105, .2)
 }
 
 .bg-dark, footer{
@@ -12,6 +13,9 @@ body {
 
 }
 
+.logo {
+  background-color: white
+}
 .footer {
   position: sticky;
   bottom: 0;
@@ -26,25 +30,10 @@ footer p {
   font-size: .5em
 }
 
-
-/* #brand-begin{
-  font-family: 'Amatic SC', cursive;
-  font-size: 4.25em;
+.card{
+  border: 1px solid #1fcecb;
 }
 
-#brand-middle {
-  font-family: 'Yesteryear', cursive;
-  font-size: 4em;
-  color: black;
-}
-
-#brand-end {
-  font-size: 1em
-} */
-img {
-  /* width:33% */
-}
-
-.img-row {
-  /* border: 2px solid gray; */
+.featured {
+  border: 1px solid #c02960;
 }

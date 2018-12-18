@@ -16,8 +16,10 @@ function addProduct(product, element){
       .addClass('col-6 col-md-4 col-lg-3 mb-5');
 
   let $card = $('<div>')
-      .addClass('card h-100');
-
+      .addClass('card');
+  if (element === '#cakes'){
+    $card.addClass('h-100')
+  }
   let $img = $('<img>')
       .addClass('card-img-top')
       .attr('src', `assets/images/${product.image}`)
@@ -28,7 +30,7 @@ function addProduct(product, element){
       .text(product.name);
 
   let $description = $('<p>')
-      .addClass('card-text text-justify pl-3 pr-3')
+      .addClass('card-text text-justify pl-3 pr-3 mb-auto')
       .text(product.description);
 
   //check of flavor of the month and add header
@@ -49,9 +51,10 @@ function addProduct(product, element){
 
   if (product.note) {
     let $note = $('<p>')
-        .addClass('ml-3')
+        .addClass('card-text ml-3')
         .text(product.note)
-    $card.after($note);
+    let $hr = $('<hr>')
+    $card.append($hr, $note);
   }
 
   //make sure featured product first
